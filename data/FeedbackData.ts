@@ -1,12 +1,12 @@
 const FeedbackData = [
   {
     id: 1,
-    rating: 10,
+    rating: 'placeholder',
     text: 'placeholder',
   },
   {
     id: 2,
-    rating: 7,
+    rating: 'placeholder',
     text: 'placeholder',
   },
 ];

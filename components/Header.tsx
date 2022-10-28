@@ -9,15 +9,17 @@ export default function Header(props) {
 
   return (
     <header style={headerStyles}>
-      <div>
+      <div className="container">
         <h2>{props.text}</h2>
+        <p>{props.subText}</p>
       </div>
     </header>
   );
 }
 
 Header.defaultProps = {
-  text: 'Faux Micro Blogger',
+  text: 'Micro Blogger',
+  subText: 'Shout into the void',
   bgColor: 'rgba(0,0,0,0.4)',
   textColor: '#ff6a95',
 };
