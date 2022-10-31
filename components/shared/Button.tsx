@@ -21,3 +21,5 @@ Button.propTypes = {
   type: PropTypes.string,
   isDisabled: PropTypes.bool,
 };
+
+export default Button;
