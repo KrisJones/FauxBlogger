@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import { createContext, useState, useEffect } from 'react';
 
-const FeedbackContext = createContext();
+const FeedbackContext = createContext('Default Value');
 
 export const FeedbackProvider = ({ children }) => {
   const [isLoading, setIsLoading] = useState(true);
