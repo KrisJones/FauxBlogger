@@ -4,8 +4,9 @@ import '../style.css';
 import Card from './shared/Card';
 
 import { FaTimes, FaEdit } from 'react-icons/fa';
-import PropTypes from 'prop-types';
 import FeedbackContext from '../context/FeedbackContext';
+
+import PropTypes from 'prop-types';
 
 export default function FeedbackItem({ item }) {
   const { deleteFeedback, editFeedback } = useContext(FeedbackContext);
