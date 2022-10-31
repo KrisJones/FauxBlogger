@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { useState, useContext, useEffect } from 'react';
-import RatingSelect from './RatingSelect';
 import Card from './shared/Card';
 import Button from './shared/Button';
 import FeedbackContext from '../context/FeedbackContext';
@@ -63,11 +62,11 @@ function FeedbackForm() {
   };
 
   // NOTE: pass selected to RatingSelect so we don't need local duplicate state
+  //<RatingSelect select={setRating} selected={rating} />
   return (
     <Card>
       <form onSubmit={handleSubmit}>
         <h2>How would you rate your service with us?</h2>
-        <RatingSelect select={setRating} selected={rating} />
         <div className="input-group">
           <input
             onChange={handleTextChange}

@@ -5,6 +5,7 @@ import './style.css';
 import Header from './components/Header';
 import FeedbackList from './components/FeedbackList';
 import FeedbackForm from './components/FeedbackForm';
+import AboutIconLink from './components/AboutIconLink';
 import AboutPage from './pages/AboutPage';
 import { FeedbackProvider } from './context/FeedbackContext';
 
@@ -20,7 +21,6 @@ export default function App() {
               element={
                 <>
                   <FeedbackForm />
-                  <FeedbackStats />
                   <FeedbackList />
                 </>
               }
