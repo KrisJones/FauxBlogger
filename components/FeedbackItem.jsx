@@ -9,6 +9,7 @@ import FeedbackContext from '../context/FeedbackContext';
 import PropTypes from 'prop-types';
 
 export default function FeedbackItem({ item }) {
+  console.log(FeedbackContext);
   const { deleteFeedback, editFeedback } = useContext(FeedbackContext);
 
   return (
