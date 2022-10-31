@@ -25,3 +25,7 @@ export default function FeedbackItem({ item }) {
     </Card>
   );
 }
+
+FeedbackItem.propTypes = {
+  item: PropTypes.object.isRequired,
+};
