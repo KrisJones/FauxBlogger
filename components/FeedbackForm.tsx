@@ -1,3 +1,4 @@
+import * as React from 'react';
 import { useState, useContext, useEffect } from 'react';
 import RatingSelect from './RatingSelect';
 import Card from './shared/Card';
