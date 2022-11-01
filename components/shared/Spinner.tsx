@@ -1,10 +1,9 @@
 import * as React from 'react';
-import spinner from '../assets/spinner.gif';
 
 function Spinner() {
   return (
     <img
-      src={spinner}
+      src={'../assets/spinner.gif'}
       alt="Loading..."
       style={{ width: '100px', margin: 'auto', display: 'block' }}
     />
